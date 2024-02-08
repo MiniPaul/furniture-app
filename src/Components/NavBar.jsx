@@ -15,10 +15,10 @@ const NavBar = () => {
           <a className="nav-link active" aria-current="page" href="/">Add</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/view">View</a>
+          <a className="nav-link" href="/search">Search</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/view">Search</a>
+          <a className="nav-link" href="/view">View</a>
         </li>
       </ul>
     </div>

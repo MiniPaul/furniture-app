@@ -8,9 +8,13 @@ import View from './Components/View';
 function App() {
   return (
     <div >
-      <Add/>
-      <Search/>
-      <View/>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Add/>}/>
+        <Route path='/search' element={<Search/>} />
+        <Route path='/view' element={<View/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
